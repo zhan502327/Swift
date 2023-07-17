@@ -1,5 +1,5 @@
 platform :ios, '12.0'
-target 'Swift' do
+target 'Template' do
   use_frameworks!
   
   source 'https://github.com/CocoaPods/Specs.git'
