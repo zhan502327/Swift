@@ -3,6 +3,9 @@ PODS:
   - DGCharts (5.0.0):
     - DGCharts/Core (= 5.0.0)
   - DGCharts/Core (5.0.0)
+  - DGElasticPullToRefresh (1.1)
+  - ImagePicker (3.2.0)
+  - Kingfisher (4.10.1)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
@@ -12,6 +15,7 @@ PODS:
   - NVActivityIndicatorView/Base (5.1.1)
   - ObjectMapper (4.2.0)
   - RxSwift (6.5.0)
+  - SCLAlertView (0.8)
   - SnapKit (4.2.0)
   - SQLite (0.1.23)
   - SwiftMessages (9.0.6):
@@ -23,10 +27,14 @@ PODS:
 
 DEPENDENCIES:
   - DGCharts (= 5.0.0)
+  - DGElasticPullToRefresh (= 1.1)
+  - ImagePicker (= 3.2.0)
+  - Kingfisher (= 4.10.1)
   - Moya (= 15.0.0)
   - NVActivityIndicatorView (= 5.1.1)
   - ObjectMapper (= 4.2.0)
   - RxSwift (= 6.5.0)
+  - SCLAlertView
   - SnapKit (= 4.2.0)
   - SQLite (= 0.1.23)
   - SwiftMessages (= 9.0.6)
@@ -38,10 +46,14 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - DGCharts
+    - DGElasticPullToRefresh
+    - ImagePicker
+    - Kingfisher
     - Moya
     - NVActivityIndicatorView
     - ObjectMapper
     - RxSwift
+    - SCLAlertView
     - SnapKit
     - SQLite
     - SwiftMessages
@@ -52,10 +64,14 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SQLite: 25f557f4203527054287da5ac566b8127ce93ba9
   SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
@@ -63,6 +79,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
 
-PODFILE CHECKSUM: 53fbd9975be0b064833889c4ddbcaa9c458ce0ea
+PODFILE CHECKSUM: bdbdcd11ad087f0f0c6417682c7a9f7183be465c
 
 COCOAPODS: 1.12.1

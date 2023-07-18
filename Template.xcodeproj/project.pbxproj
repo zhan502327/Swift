@@ -15,6 +15,7 @@
 		4D13D0392A64E5B100C9FA16 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13D0382A64E5B100C9FA16 /* BaseViewController.swift */; };
 		4D13D03B2A651B6B00C9FA16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13D03A2A651B6B00C9FA16 /* HomeViewController.swift */; };
 		4D13D03D2A651B7C00C9FA16 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13D03C2A651B7C00C9FA16 /* MineViewController.swift */; };
+		4D13D03F2A652E4F00C9FA16 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13D03E2A652E4F00C9FA16 /* NextViewController.swift */; };
 		6220EDA6046EB039B858D774 /* Pods_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C63A69A67EA21DCE811620 /* Pods_Template.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		4D13D0382A64E5B100C9FA16 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4D13D03A2A651B6B00C9FA16 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4D13D03C2A651B7C00C9FA16 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		4D13D03E2A652E4F00C9FA16 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		95315C14E089E72C91B24641 /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
 		F9C63A69A67EA21DCE811620 /* Pods_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				4D13D03A2A651B6B00C9FA16 /* HomeViewController.swift */,
+				4D13D03E2A652E4F00C9FA16 /* NextViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D13D03B2A651B6B00C9FA16 /* HomeViewController.swift in Sources */,
+				4D13D03F2A652E4F00C9FA16 /* NextViewController.swift in Sources */,
 				4D13D0352A64E58A00C9FA16 /* BaseNavController.swift in Sources */,
 				4D13D0392A64E5B100C9FA16 /* BaseViewController.swift in Sources */,
 				4D13D0132A611EF500C9FA16 /* AppDelegate.swift in Sources */,
@@ -408,7 +412,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Template/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -440,7 +444,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Template/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;

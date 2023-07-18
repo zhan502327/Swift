@@ -16,8 +16,17 @@ class HomeViewController: BaseViewController {
         
         self.navigationItem.title = "首页"
         
+        
+        
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        let vc = NextViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+        
+    }
 
     /*
     // MARK: - Navigation
