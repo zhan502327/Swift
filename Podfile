@@ -4,9 +4,6 @@ target 'Template' do
   
   source 'https://github.com/CocoaPods/Specs.git'
 
-  
-#  上拉刷新
-  pod 'DGElasticPullToRefresh', '1.1'
 #  网络基础库
    pod 'Moya', '15.0.0'
 #  JSON解析类
@@ -30,14 +27,12 @@ target 'Template' do
 #  图片处理功能。
   pod 'Kingfisher', '4.10.1'
   
-#  图片选择器
-  pod 'ImagePicker', '3.2.0'
   
 #  提示框
   pod 'SCLAlertView', '0.8'
   
 #  分页
-  pod 'PageMenu'
+#  pod 'PageMenu'
   
 #  自动布局
   pod 'SnapKit', '4.2.0'

@@ -16,6 +16,9 @@
 		4D13D03B2A651B6B00C9FA16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13D03A2A651B6B00C9FA16 /* HomeViewController.swift */; };
 		4D13D03D2A651B7C00C9FA16 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13D03C2A651B7C00C9FA16 /* MineViewController.swift */; };
 		4D13D03F2A652E4F00C9FA16 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13D03E2A652E4F00C9FA16 /* NextViewController.swift */; };
+		4D7F03032A667C8400464CA3 /* FrameMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7F03022A667C8400464CA3 /* FrameMacro.swift */; };
+		4D7F03052A66818900464CA3 /* HTTPMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7F03042A66818800464CA3 /* HTTPMacro.swift */; };
+		4D7F030D2A6780F300464CA3 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7F030B2A6780F200464CA3 /* LYLUnicode.m */; };
 		6220EDA6046EB039B858D774 /* Pods_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C63A69A67EA21DCE811620 /* Pods_Template.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,11 @@
 		4D13D03A2A651B6B00C9FA16 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4D13D03C2A651B7C00C9FA16 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		4D13D03E2A652E4F00C9FA16 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		4D7F03022A667C8400464CA3 /* FrameMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameMacro.swift; sourceTree = "<group>"; };
+		4D7F03042A66818800464CA3 /* HTTPMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMacro.swift; sourceTree = "<group>"; };
+		4D7F03072A668CB600464CA3 /* Template-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Template-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D7F030B2A6780F200464CA3 /* LYLUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUnicode.m; sourceTree = "<group>"; };
+		4D7F030C2A6780F200464CA3 /* LYLUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUnicode.h; sourceTree = "<group>"; };
 		95315C14E089E72C91B24641 /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
 		F9C63A69A67EA21DCE811620 /* Pods_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,12 +86,14 @@
 		4D13D0112A611EF500C9FA16 /* Template */ = {
 			isa = PBXGroup;
 			children = (
+				4D7F03012A667AF000464CA3 /* Configs */,
 				4D13D02B2A64E4B300C9FA16 /* Sections */,
 				4D13D0292A64E3C800C9FA16 /* Category */,
 				4D13D0282A64E3B800C9FA16 /* Base */,
 				4D13D02A2A64E41200C9FA16 /* Utils */,
 				4D13D0202A611EFC00C9FA16 /* Info.plist */,
 				4D13D0122A611EF500C9FA16 /* AppDelegate.swift */,
+				4D7F03072A668CB600464CA3 /* Template-Bridging-Header.h */,
 				4D13D01B2A611EFC00C9FA16 /* Assets.xcassets */,
 				4D13D01D2A611EFC00C9FA16 /* LaunchScreen.storyboard */,
 			);
@@ -110,6 +120,7 @@
 		4D13D02A2A64E41200C9FA16 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4D7F03062A668CA100464CA3 /* LYLUnicode */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -117,8 +128,8 @@
 		4D13D02B2A64E4B300C9FA16 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				4D13D02D2A64E4CA00C9FA16 /* Mine */,
 				4D13D02C2A64E4BF00C9FA16 /* Home */,
+				4D13D02D2A64E4CA00C9FA16 /* Mine */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -138,6 +149,24 @@
 				4D13D03C2A651B7C00C9FA16 /* MineViewController.swift */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		4D7F03012A667AF000464CA3 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				4D7F03022A667C8400464CA3 /* FrameMacro.swift */,
+				4D7F03042A66818800464CA3 /* HTTPMacro.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		4D7F03062A668CA100464CA3 /* LYLUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				4D7F030C2A6780F200464CA3 /* LYLUnicode.h */,
+				4D7F030B2A6780F200464CA3 /* LYLUnicode.m */,
+			);
+			path = LYLUnicode;
 			sourceTree = "<group>";
 		};
 		68D6C2A918F2E794E277EDA9 /* Frameworks */ = {
@@ -182,6 +211,7 @@
 				TargetAttributes = {
 					4D13D00E2A611EF500C9FA16 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -262,13 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7F03032A667C8400464CA3 /* FrameMacro.swift in Sources */,
 				4D13D03B2A651B6B00C9FA16 /* HomeViewController.swift in Sources */,
 				4D13D03F2A652E4F00C9FA16 /* NextViewController.swift in Sources */,
+				4D7F03052A66818900464CA3 /* HTTPMacro.swift in Sources */,
 				4D13D0352A64E58A00C9FA16 /* BaseNavController.swift in Sources */,
 				4D13D0392A64E5B100C9FA16 /* BaseViewController.swift in Sources */,
 				4D13D0132A611EF500C9FA16 /* AppDelegate.swift in Sources */,
 				4D13D0372A64E59F00C9FA16 /* BaseTabBarController.swift in Sources */,
 				4D13D03D2A651B7C00C9FA16 /* MineViewController.swift in Sources */,
+				4D7F030D2A6780F300464CA3 /* LYLUnicode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBP8GJ5X26;
@@ -420,13 +454,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4.8;
 				PRODUCT_BUNDLE_IDENTIFIER = zhandb.Template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Template/Template-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBP8GJ5X26;
@@ -452,13 +489,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4.8;
 				PRODUCT_BUNDLE_IDENTIFIER = zhandb.Template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Template/Template-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -3,8 +3,6 @@ PODS:
   - DGCharts (5.0.0):
     - DGCharts/Core (= 5.0.0)
   - DGCharts/Core (5.0.0)
-  - DGElasticPullToRefresh (1.1)
-  - ImagePicker (3.2.0)
   - Kingfisher (4.10.1)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
@@ -27,14 +25,12 @@ PODS:
 
 DEPENDENCIES:
   - DGCharts (= 5.0.0)
-  - DGElasticPullToRefresh (= 1.1)
-  - ImagePicker (= 3.2.0)
   - Kingfisher (= 4.10.1)
   - Moya (= 15.0.0)
   - NVActivityIndicatorView (= 5.1.1)
   - ObjectMapper (= 4.2.0)
   - RxSwift (= 6.5.0)
-  - SCLAlertView
+  - SCLAlertView (= 0.8)
   - SnapKit (= 4.2.0)
   - SQLite (= 0.1.23)
   - SwiftMessages (= 9.0.6)
@@ -46,8 +42,6 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - DGCharts
-    - DGElasticPullToRefresh
-    - ImagePicker
     - Kingfisher
     - Moya
     - NVActivityIndicatorView
@@ -64,8 +58,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
-  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
-  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
@@ -79,6 +71,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
 
-PODFILE CHECKSUM: bdbdcd11ad087f0f0c6417682c7a9f7183be465c
+PODFILE CHECKSUM: f656de366ffd8e5ca8ea611228dd150c167ecf27
 
 COCOAPODS: 1.12.1
